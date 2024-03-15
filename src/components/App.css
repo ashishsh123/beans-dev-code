@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+.left-side {
+  background-color: #e6e6f0;
+}
+.tab {
+  border-radius: 8px;
+}
+.tab-btn:hover {
+  background-color: #212529;
+  color: #fff;
+}
+.tab-btn {
+  border-radius: 8px;
+}
+.textarea {
+  background-color: #212529;
+}
+.textarea:focus {
+  box-shadow: none;
+  outline: none;
+}
+.option1 {
+  border-right: none;
+}
+.custom-textarea {
+  background-color: #e4fafc; /* Set your desired background color */
+  border: 1px solid #ced4da; /* Add a border for visual separation */
+  color: #495057; /* Set text color */
+  padding: 10px;
+  height: 35rem;
+}
+.custom-autotextarea {
+  height: 320px;
+  background-color: #f9f9f9; /* Set your desired background color */
+  border: 1px solid #ced4da; /* Add a border for visual separation */
+  color: #495057; /* Set text color */
+  padding: 10px;
+}
+.custom-autotextarea {
+  outline: none;
+  box-shadow: none;
+}
+.custom-textarea:focus {
+  /* Add focus styles if needed */
+  outline: none; /* Remove the default focus outline */
+  box-shadow: none; /* Remove any box shadow on focus */
+}
+.banner {
+  text-align: center;
+  margin-top: 20%;
+  color: #d6cece;
+}
+
+.logo {
+  /* margin-right: 1rem; */
+  /* margin-top: -70px; */
+  /* width: 200px; */
+  /* margin-right: 1rem; */
+  height: 60px;
+}
+.heading-ai {
+  margin-top: 13px;
+  font-size: 30px;
+  /* margin-left: -2.5rem; */
+  color: blue;
+  font-weight: bold;
+}
+.btn-copy {
+  width: 90%;
+  text-align: right;
+}
+
+.optimise-btn {
+  width: 9%;
+  padding: 8px 10px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.optimise-btn:focus {
+  box-shadow: none;
+}
+.optimise-btn:hover {
+  background-color: #1c1e3a !important;
+}
+.option-btn:hover {
+  color: white !important;
+  background-color: #1c1e3a !important;
+  border-radius: 8px !important;
+}
+
+/* Add this style to change text color to white when the button is active */
+.option-btn.active {
+  color: white !important;
+  background-color: #1c1e3a !important;
+}
+.send-logo {
+  padding-right: 14px !important;
+}
+.input-box:focus {
+  outline: none !important;
+}
+.input-box {
+  width: 85% !important;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.send-btn {
+  width: 15% !important;
+}
+.custom-autotextarea-title {
+  height: 320px;
+  background-color: #f9f9f9; /* Set your desired background color */
+  border: 1px solid #ced4da; /* Add a border for visual separation */
+  color: #495057; /* Set text color */
+  padding: 10px;
+}
+.custom-autotextarea-title {
+  outline: none;
+  box-shadow: none;
+}
+.save-btn {
+  width: 18%;
+  padding: 5px 10px;
+}
+.logs {
+  border-radius: 6px !important;
+  font-size: 12px;
+  background-color: #e6e6f0;
+  font-weight: 500;
+}
+.logs:hover {
+  background-color: #000;
+  color: #fff;
+}
+.logs:active {
+  background-color: #000;
+  color: #fff;
+}
+.send-mail {
+  cursor: pointer;
+}
+/* .logs-btn {
+  padding: 4px 16px;
+  background-color: #1c1e3a;
+  color: #fff;
+}
+.logs-btn:disabled {
+  background-color: #c8ccd0;
+}
+.logs-btn:hover {
+  color: #fff;
+} */
+.refresh-icon {
+  cursor: pointer;
+}
+.refresh-icon h4 {
+  padding-right: 10px;
+}
+.input-group input.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.classfied {
+  /* width: 300%; */
+}
+/* .submit-btn {
+  padding: 0.375rem 6.2rem;
+} */
+
+.optionAI:focus {
+  /* outline: none !important; */
+  box-shadow: none;
+}
+
+.created-at {
+  font-size: 12px;
+  font-weight: 500;
+}
+.card {
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  background-color: #ffffff;
+}
+.jurno-input {
+  overflow: hidden; /* Hide overflow to prevent shadow from being clipped */
+  /* box-shadow: inset 0px 5px 5px -5px rgba(0, 0, 0, 0.5); */
+  border-right: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  outline: none;
+}
+.jurno-input:focus {
+  box-shadow: none;
+}
+.jurno-btn {
+  overflow: hidden; /* Hide overflow to prevent shadow from being clipped */
+  /* box-shadow: inset 0px 5px 5px -5px rgba(0, 0, 0, 0.5); */
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: none;
+  border-color: #ced4da;
+  padding: 15.5px;
+}
+.jurno-btn:focus {
+  box-shadow: none;
+}
+@media (max-width: 800px) {
+  #test1 {
+    width: 25%;
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/

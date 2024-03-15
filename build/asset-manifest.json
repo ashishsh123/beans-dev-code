@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f9f312d.css",
+    "main.js": "/static/js/main.627fd306.js",
+    "static/media/new_10785604.png": "/static/media/new_10785604.aa0ab6c8e2030a8e76a9.png",
+    "static/media/Beans-logos_black-1.png": "/static/media/Beans-logos_black-1.be61c465bc220817b3f3.png",
+    "index.html": "/index.html",
+    "static/media/send.svg": "/static/media/send.5cc05986cf306ae5d4ce38bf6fdc3def.svg",
+    "main.2f9f312d.css.map": "/static/css/main.2f9f312d.css.map",
+    "main.627fd306.js.map": "/static/js/main.627fd306.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f9f312d.css",
+    "static/js/main.627fd306.js"
+  ]
+}
